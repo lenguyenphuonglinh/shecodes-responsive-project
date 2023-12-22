@@ -102,3 +102,31 @@ p {
   max-width: 80%;
   margin: 57px;
 }
+@media (max-width: 1000px) {
+  #song-image,
+  #movie-image,
+  #book-image {
+    text-align: center;
+    margin: 0 auto 15px;
+    display: block;
+  }
+  #movie-image {
+    margin-top: 50px;
+  }
+  .primary-link {
+    text-align: center;
+    margin: -10px auto;
+    display: block;
+    width: fit-content;
+  }
+  .movie-container {
+    display: flex;
+  }
+
+  #movie-image {
+    order: 1;
+  }
+  #movie-content {
+    order: 2;
+  }
+}
