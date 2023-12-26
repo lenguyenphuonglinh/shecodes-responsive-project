@@ -2,6 +2,8 @@
   --primary-color: #3e3e3a;
   --secondary-color: #c7c1c18f;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -17,15 +19,20 @@ h3 {
 
 h1 {
   font-size: 74px;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: var(--heading-font-family);
 }
 
 h2 {
   font-size: 34px;
+  font-family: var(--default-font-family);
 }
 
 h3 {
   font-size: 20px;
   opacity: 0.7;
+  font-family: var(--default-font-family);
 }
 
 p {
@@ -35,6 +42,28 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  font-family: var(--default-font-family);
+}
+.name-hero {
+  font-size: 74px;
+}
+.link-hero {
+  color: #212529;
+}
+.link-hero:hover {
+  text-decoration-line: none;
+  color: #212529;
+}
+.contact-heading {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.index-link {
+  font-family: var(--default-font-family);
+}
+.nav-link {
+  font-family: var(--default-font-family);
 }
 
 .links {
@@ -90,6 +119,23 @@ p {
 .primary-link:hover {
   color: white;
 }
+.gmail,
+.linkedin,
+.instagram {
+  color: #3e3e3a;
+  font-family: var(--default-font-family);
+}
+
+.instagram:hover {
+  color: #3e3e3a;
+}
+.gmail:hover {
+  color: #3e3e3a;
+}
+.linkedin:hover {
+  color: #3e3e3a;
+}
+
 #book-image {
   max-width: 80%;
   margin: 57px;
